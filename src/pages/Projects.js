@@ -1,5 +1,8 @@
 import Project from "../components/Project";
 import workoutWizard from "../images/project-two-img.png";
+import petPal from "../images/project-one-img.png";
+import jate from "../images/JATE.png";
+import weatherApp from "../images/weather-app.png";
 
 function Projects() {
   const projects = [
@@ -11,19 +14,19 @@ function Projects() {
     },
     {
       title: "Pet Pal",
-      imageUrl: "./images/project-one-img.png",
+      imageUrl: petPal,
       projectUrl: "https://OutlawDisco.github.io/Pet-Pal/",
       githubUrl: "https://github.com/OutlawDisco/Pet-Pal",
     },
     {
       title: "J.A.T.E.",
-      imageUrl: "./images/JATE.png",
+      imageUrl: jate,
       projectUrl: "https://jate-pwa-one-592b1645b581.herokuapp.com/",
       githubUrl: "https://github.com/Lone1ne/PWA-Text-Editor",
     },
     {
       title: "Weather App",
-      imageUrl: "./images/weather-app.png",
+      imageUrl: weatherApp,
       projectUrl: "https://lone1ne.github.io/Weather-App/",
       githubUrl: "https://github.com/Lone1ne/Weather-App",
     },

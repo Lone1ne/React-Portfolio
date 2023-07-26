@@ -1,13 +1,11 @@
+import profilePic from "../images/IMG_1481-modified.png";
+
 function About() {
   return (
     <div>
       <h2>About Me</h2>
       <div class="about-content">
-        <img
-          class="profile-img"
-          src="./images/IMG_1481-modified.png"
-          alt="profile"
-        />
+        <img class="profile-img" src={profilePic} alt="profile" />
         <div class="text-content">
           <h3>Hi I'm Derek!</h3>
           <p>
