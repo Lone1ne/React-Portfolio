@@ -6,7 +6,7 @@ function About() {
         <img
           class="profile-img"
           src="./images/IMG_1481-modified.png"
-          alt="profile picture"
+          alt="profile"
         />
         <div class="text-content">
           <h3>Hi I'm Derek!</h3>
