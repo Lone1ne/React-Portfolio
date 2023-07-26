@@ -11,9 +11,9 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/React-Portfolio" element={<About />} />
+            <Route path="/React-Portfolio/projects" element={<Projects />} />
+            <Route path="/React-Portfolio/contact" element={<Contact />} />
           </Routes>
         </div>
       </div>
