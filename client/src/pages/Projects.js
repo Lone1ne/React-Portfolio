@@ -20,6 +20,12 @@ function Projects() {
       projectUrl: "https://jate-pwa-one-592b1645b581.herokuapp.com/",
       githubUrl: "https://github.com/Lone1ne/PWA-Text-Editor",
     },
+    {
+      title: "Weather App",
+      imageUrl: "./images/weather-app.png",
+      projectUrl: "https://lone1ne.github.io/Weather-App/",
+      githubUrl: "https://github.com/Lone1ne/Weather-App",
+    },
   ];
 
   return (
