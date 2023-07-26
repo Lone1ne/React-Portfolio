@@ -1,10 +1,11 @@
 import Project from "../components/Project";
+import workoutWizard from "../images/project-two-img.png";
 
 function Projects() {
   const projects = [
     {
       title: "Workout Wizard",
-      imageUrl: "./images/project-two-img.png",
+      imageUrl: workoutWizard,
       projectUrl: "https://the-workout-wizard-7d5c29c6d6dd.herokuapp.com/",
       githubUrl: "https://github.com/ryantixier/Workout-Wizard",
     },
