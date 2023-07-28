@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4da62354.css",
-    "main.js": "/React-Portfolio/static/js/main.b003595d.js",
+    "main.css": "/React-Portfolio/static/css/main.03ee597b.css",
+    "main.js": "/React-Portfolio/static/js/main.e05c6b8f.js",
     "static/media/project-two-img.png": "/React-Portfolio/static/media/project-two-img.cd5b838d320a2d2b5cdb.png",
     "static/media/project-one-img.png": "/React-Portfolio/static/media/project-one-img.4646a28ac8900cef8532.png",
     "static/media/IMG_1481-modified.png": "/React-Portfolio/static/media/IMG_1481-modified.cf99d03dd0aea8748452.png",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.9b49ebf87805b23c726d.png",
     "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.97708936d33deeaadc9c.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.4da62354.css.map": "/React-Portfolio/static/css/main.4da62354.css.map",
-    "main.b003595d.js.map": "/React-Portfolio/static/js/main.b003595d.js.map"
+    "main.03ee597b.css.map": "/React-Portfolio/static/css/main.03ee597b.css.map",
+    "main.e05c6b8f.js.map": "/React-Portfolio/static/js/main.e05c6b8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da62354.css",
-    "static/js/main.b003595d.js"
+    "static/css/main.03ee597b.css",
+    "static/js/main.e05c6b8f.js"
   ]
 }
