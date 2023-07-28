@@ -3,6 +3,7 @@ import workoutWizard from "../images/project-two-img.png";
 import petPal from "../images/project-one-img.png";
 import jate from "../images/JATE.png";
 import weatherApp from "../images/weather-app.png";
+import "../styles/Projects.css";
 
 function Projects() {
   const projects = [

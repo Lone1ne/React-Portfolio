@@ -1,0 +1,12 @@
+header {
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  background-color: #197bbd;
+  color: #f1f0ea;
+  max-width: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  color: #f1f0ea;
+}

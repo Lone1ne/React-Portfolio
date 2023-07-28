@@ -1,8 +1,9 @@
 import { Modal, Button } from "react-bootstrap";
+import "../styles/SuccessModal.css";
 
 function SuccessModal({ showModal, handleClose }) {
   return (
-    <Modal show={showModal} onHide={handleClose}>
+    <Modal className="dark-modal" show={showModal} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>Message Sent!</Modal.Title>
       </Modal.Header>

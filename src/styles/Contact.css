@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.formInputs {
+  max-width: 600px;
+  width: 100%;
+  margin: 10px auto;
+  margin-top: 2%;
+  box-shadow: 4px 4px 10px black;
+  border-radius: 50px;
+  padding: 2rem;
+  text-align: center;
+}

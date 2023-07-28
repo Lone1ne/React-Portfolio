@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import SuccessModal from "./SucessModal";
+import SuccessModal from "./SuccessModal";
+import "../styles/Contact.css";
 
 emailjs.init(process.env.REACT_APP_EMAILJS_USER);
 
@@ -48,7 +49,7 @@ function ContactForm() {
   const handleClose = () => setShowModal(false);
 
   return (
-    <div>
+    <div className="formInputs">
       <form onSubmit={sendEmail}>
         <div>
           <h3>Leave me a message!</h3>
