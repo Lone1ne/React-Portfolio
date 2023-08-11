@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.76694d23.css",
+    "main.css": "/React-Portfolio/static/css/main.44318591.css",
     "main.js": "/React-Portfolio/static/js/main.cfe2d219.js",
     "static/media/chat98.png": "/React-Portfolio/static/media/chat98.5b55cdacd24b867fdeb6.png",
     "static/media/project-two-img.png": "/React-Portfolio/static/media/project-two-img.cd5b838d320a2d2b5cdb.png",
@@ -11,11 +11,11 @@
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.9b49ebf87805b23c726d.png",
     "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.97708936d33deeaadc9c.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.76694d23.css.map": "/React-Portfolio/static/css/main.76694d23.css.map",
+    "main.44318591.css.map": "/React-Portfolio/static/css/main.44318591.css.map",
     "main.cfe2d219.js.map": "/React-Portfolio/static/js/main.cfe2d219.js.map"
   },
   "entrypoints": [
-    "static/css/main.76694d23.css",
+    "static/css/main.44318591.css",
     "static/js/main.cfe2d219.js"
   ]
 }
