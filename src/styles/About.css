@@ -32,10 +32,15 @@
   margin-bottom: 3%;
   text-align: center;
   padding: 1rem;
+  text-shadow: 0px 0px 5px #3b87ca, 0px 0px 10px #3b87ca, 0px 0px 10px #3b87ca,
+    0px 0px 20px #3b87ca;
 }
 
 @media screen and (max-width: 1100px) {
   .about-content {
     flex-direction: column;
+  }
+  .text-content {
+    margin: 5% 5% 15% 5%;
   }
 }
