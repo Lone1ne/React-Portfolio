@@ -1,12 +1,12 @@
 header {
-  text-align: center;
-  padding: 1.5rem 0.5rem;
-  background-color: #197bbd;
-  color: #f1f0ea;
+  box-shadow: 0 0 8px 8px #197bbd;
+  padding: 3rem 0.5rem;
   max-width: 0 auto;
-}
-
-header h1 {
-  margin-bottom: 1rem;
-  color: #f1f0ea;
+  background-image: url("../images/bg7.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
 }

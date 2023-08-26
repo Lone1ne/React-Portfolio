@@ -1,11 +1,9 @@
-import Nav from "./Nav";
 import "../styles/Header.css";
 
 function Header() {
   return (
     <header>
-      <h1>Derek Szczepanik Portfolio</h1>
-      <Nav />
+      <h2>{"\u00A0"}</h2>
     </header>
   );
 }

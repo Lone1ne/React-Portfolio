@@ -1,26 +1,41 @@
-import profilePic from "../images/IMG_1481-modified.png";
+import React, { useState, useEffect } from "react";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Intro from "../components/Intro";
+import rocket from "../images/rocket.png";
 import "../styles/About.css";
 
 function About() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 350) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
   return (
     <section className="about">
-      <h2>About Me</h2>
+      <Banner />
       <div className="about-content">
-        <img className="profile-img" src={profilePic} alt="profile" />
-        <div className="text-content">
-          <h3>Hi I'm Derek!</h3>
-          <p>
-            A highly motivated Full-Stack Developer with a passion for
-            developing web applications. Proficient in both front-end and
-            back-end development and backed by a diverse skill set including
-            psychology, business, finance, and customer service. After
-            successfully completing an accelerated programming course and
-            numerous personal and collaborative projects, I consistently
-            demonstrate a strong commitment to learning and developing industry
-            skills.
-          </p>
-        </div>
+        <Intro />
       </div>
+      {isVisible && (
+        <button
+          className="back-to-top"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          <img className="rocket-img" src={rocket} alt="Back to Top" />
+        </button>
+      )}
+      <Header />
     </section>
   );
 }

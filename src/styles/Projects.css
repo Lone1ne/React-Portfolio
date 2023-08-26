@@ -14,7 +14,7 @@
 
 .project-content {
   max-width: 500px;
-  min-width: 300px;
+  min-width: 315px;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -91,5 +91,9 @@
   .project-content {
     width: 48%;
     margin: 2% 1%;
+  }
+  .btn {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
 }

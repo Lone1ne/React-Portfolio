@@ -1,19 +1,29 @@
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1rem 0;
-}
-
-.nav-item {
-  color: #f1f0ea;
-  font-weight: bold;
+.nav-link a,
+.dropdown-item a {
   text-decoration: none;
 }
 
-.nav-item:hover {
-  color: #000;
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: padding 0.32s ease-in-out, font-size 0.48s ease-in-out;
+  border-bottom: 5px solid #197bbd;
+}
+.navbar-brand {
+  margin-left: 0.6rem;
+  margin-top: 0.4rem;
+}
+nav.navbar.shrink {
+  padding: 2px 0;
+}
+nav.navbar.shrink .nav-link {
+  font-size: 0.9em;
+}
+
+nav.navbar.shrink .nav-link a,
+nav.navbar.shrink .dropdown-item a {
+  font-size: 0.9em;
 }

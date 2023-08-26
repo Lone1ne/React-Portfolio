@@ -1,5 +1,6 @@
 body {
   line-height: 1.3 !important;
-  background-color: #534b52 !important;
+  background-color: #24283f !important;
   color: #f1f0ea !important;
+  overflow-x: hidden;
 }
