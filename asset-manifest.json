@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.44318591.css",
-    "main.js": "/React-Portfolio/static/js/main.cfe2d219.js",
+    "main.css": "/React-Portfolio/static/css/main.4e2b091c.css",
+    "main.js": "/React-Portfolio/static/js/main.6ff85dcb.js",
     "static/media/chat98.png": "/React-Portfolio/static/media/chat98.5b55cdacd24b867fdeb6.png",
     "static/media/project-two-img.png": "/React-Portfolio/static/media/project-two-img.cd5b838d320a2d2b5cdb.png",
+    "static/media/bg7.jpeg": "/React-Portfolio/static/media/bg7.74e88246d1fedb9f9af7.jpeg",
     "static/media/resume.png": "/React-Portfolio/static/media/resume.04a5f2bb06fe9f99fccb.png",
     "static/media/project-one-img.png": "/React-Portfolio/static/media/project-one-img.4646a28ac8900cef8532.png",
     "static/media/IMG_1481-modified.png": "/React-Portfolio/static/media/IMG_1481-modified.cf99d03dd0aea8748452.png",
     "static/media/noSQL.png": "/React-Portfolio/static/media/noSQL.7eca0547d9ba6c69ea67.png",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.9b49ebf87805b23c726d.png",
     "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.97708936d33deeaadc9c.png",
+    "static/media/rocket.png": "/React-Portfolio/static/media/rocket.632ecae2aa154a9b4a8a.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.44318591.css.map": "/React-Portfolio/static/css/main.44318591.css.map",
-    "main.cfe2d219.js.map": "/React-Portfolio/static/js/main.cfe2d219.js.map"
+    "main.4e2b091c.css.map": "/React-Portfolio/static/css/main.4e2b091c.css.map",
+    "main.6ff85dcb.js.map": "/React-Portfolio/static/js/main.6ff85dcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.44318591.css",
-    "static/js/main.cfe2d219.js"
+    "static/css/main.4e2b091c.css",
+    "static/js/main.6ff85dcb.js"
   ]
 }
