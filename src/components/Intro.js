@@ -30,7 +30,7 @@ function Intro() {
                 )}
               </TrackVisibility>
 
-              <TrackVisibility once>
+              <TrackVisibility once partialVisibility>
                 {({ isVisible }) => (
                   <div
                     className={
