@@ -1,15 +1,16 @@
 .banner {
-  margin-top: 0;
-  padding: 150px 0;
-  box-shadow: 0 14px 14px -6px #197bbd;
+  margin: 0 auto;
+  padding: 300px 0;
+  box-shadow: 0 0px 8px 8px #197bbd;
   background-image: url("../images/bg7.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 80vh;
+  min-height: 95vh;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .banner-text {

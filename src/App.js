@@ -13,7 +13,6 @@ function App() {
     <Router>
       <div className="flex-column justify-flex-start min-100-vh">
         <NavBar />
-        <Header />
 
         <Routes>
           <Route path="/React-Portfolio" element={<About />} />

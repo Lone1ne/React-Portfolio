@@ -52,19 +52,36 @@
 .text-content {
   box-shadow: 4px 4px 10px black;
   border-radius: 60px;
-  margin: 2%;
+  margin: 0% auto;
   padding: 2rem;
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 .invisible {
   visibility: hidden;
   opacity: 0;
 }
 
+@media screen and (max-width: 1100px) {
+  .intro img {
+    margin: 4%;
+    width: 95%;
+  }
+  .intro p {
+    font-size: 14px;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   .intro img {
     margin: 0% auto;
+    width: 50%;
+  }
+  .intro .tagline {
+    margin-top: 12%;
+    font-size: 14px;
   }
 }
 @keyframes updown {

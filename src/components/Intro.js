@@ -6,15 +6,15 @@ import TrackVisibility from "react-on-screen";
 
 function Intro() {
   return (
-    <section className="intro" id="home">
-      <Container>
+    <section className="intro">
+      <Container fluid>
         <Row className="align-items-center">
-          <Col xs={12} md={12} xl={4}>
+          <Col xs={12} md={4} xl={4}>
             <div className="center">
               <img className="profile-img" src={profilePic} alt="Header Img" />
             </div>
           </Col>
-          <Col xs={12} md={12} xl={8}>
+          <Col xs={12} md={8} xl={8}>
             <div className="center">
               <TrackVisibility once partialVisibility>
                 {({ isVisible }) => (
