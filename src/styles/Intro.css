@@ -55,7 +55,8 @@
   margin: 0% auto;
   padding: 2rem;
   text-align: center;
-  width: 90%;
+  max-width: 90%;
+  box-sizing: border-box;
 }
 .invisible {
   visibility: hidden;

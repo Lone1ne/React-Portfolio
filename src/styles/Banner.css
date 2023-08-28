@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 540px) {
   .banner-text span {
-    font-size: 40px;
+    font-size: 30px;
   }
   .banner {
     width: 94%;
