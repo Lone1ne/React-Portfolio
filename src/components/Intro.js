@@ -5,7 +5,6 @@ import "../styles/Intro.css";
 import TrackVisibility from "react-on-screen";
 
 function Intro() {
-  const isSmallScreen = window.innerWidth < 540;
   return (
     <section className="intro">
       <Container fluid>
@@ -35,7 +34,7 @@ function Intro() {
                 {({ isVisible }) => (
                   <div
                     className={
-                      isVisible && !isSmallScreen
+                      isVisible
                         ? "text-content animate__animated animate__lightSpeedInRight"
                         : "text-content invisible"
                     }

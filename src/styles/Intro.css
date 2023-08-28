@@ -86,7 +86,7 @@
   }
 }
 @media screen and (max-width: 540px) {
-  .animate__animated {
+  .text-content {
     animation: none;
     animation-delay: 0;
   }
