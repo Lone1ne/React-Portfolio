@@ -85,6 +85,12 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 540px) {
+  .animate__animated {
+    animation: none;
+    animation-delay: 0;
+  }
+}
 @keyframes updown {
   0% {
     transform: translateY(-30px);
