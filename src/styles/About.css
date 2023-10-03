@@ -3,6 +3,24 @@
   flex-direction: column;
 }
 
+/* .journey {
+  color: #e5e3d5;
+  font-size: 40px;
+  font-weight: 620;
+  display: block;
+
+  text-align: center;
+  padding: 1rem;
+
+  background: linear-gradient(
+    90.21deg,
+    rgba(54, 143, 170, 0.5) -5.91%,
+    rgba(47, 66, 189, 0.5) 111.58%
+  );
+  border-radius: 50px;
+  border: 1px solid white;
+} */
+
 .back-to-top {
   position: fixed;
   bottom: 10%;
@@ -14,7 +32,13 @@
   background-color: transparent;
   transition: opacity 0.3s ease;
 }
-
+.animated-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0px;
+}
 .rocket-img {
   width: 75px;
   height: 75px;
@@ -23,5 +47,8 @@
 @media screen and (max-width: 1100px) {
   .about-content {
     flex-direction: column;
+  }
+  .journey {
+    font-size: 40px;
   }
 }

@@ -35,7 +35,7 @@ function Intro() {
                   <div
                     className={
                       isVisible
-                        ? "text-content animate__animated animate__lightSpeedInRight"
+                        ? "text-content animate__animated animate__lightSpeedInRight animate__delay-0.5s"
                         : "text-content invisible"
                     }
                   >
